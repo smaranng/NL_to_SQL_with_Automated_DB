@@ -46,6 +46,8 @@ Ask natural language questions about the table data.
 
 
 🛠️ Setup Instructions
+
+
 🔧 1. Clone the repository
 ```bash
 git clone https://github.com/smaranng/NL_to_SQL_with_Automated_DB.git
@@ -53,8 +55,12 @@ git clone https://github.com/smaranng/NL_to_SQL_with_Automated_DB.git
 
 cd nl_to_sql
 ```
+---
+
 
 📦 2. Install Dependencies
+
+
 We recommend using a virtual environment:
 
 streamlit
@@ -67,6 +73,9 @@ transformers
 
 
 pandas
+
+---
+
 
 
 📥 3. Add the Fine-Tuned T5 Model
@@ -84,10 +93,17 @@ nl_to_sql_model/
 ```
 You can also load a public HuggingFace model here by modifying load_model() in the code.
 
+---
+
 ▶️ 4. Run the App
+
+
 ```bash
 streamlit run fullsql.py
 ```
+
+---
+
 
 📁 Project Structure
 
@@ -97,6 +113,9 @@ streamlit run fullsql.py
 ├── nl_to_sql_model/         # Fine-tuned T5 model directory
 └── README.md
 ```
+
+---
+
 
 ✨ Example Prompts
 
@@ -110,6 +129,7 @@ Show all students born after 2000
 List orders where amount < 1000
 ```
 
+---
 
 🔐 Notes
 
@@ -121,6 +141,8 @@ Only basic types supported: INTEGER, TEXT, REAL, DATE.
 App supports dynamic table creation and insertion with DATE pickers.
 
 Aliases like "employee" or "staff" are normalized internally for flexibility.
+
+---
 
 🧠 Model Training (Optional)
 
@@ -134,6 +156,8 @@ Format input as "translate English to SQL: {question}"
 Output: valid SQL syntax targeting your schema.
 
 Fine-tune using Hugging Face's Trainer API.
+
+---
 
 
 🙌 Credits
