@@ -1,7 +1,11 @@
+## 🗃️ NL_to_SQL_with_Automated_DB
+---
+
+
 🧠 Natural Language to SQL Interface
 This project is a Streamlit-based web app that converts natural language prompts into SQL queries using a fine-tuned T5 language model. It also includes a SQL Workbench-style interface for creating tables, inserting rows, and querying data—making it perfect for non-technical users or rapid prototyping.
 
-
+---
 
 🚀 Features
 🔍 Natural Language to SQL Generator
@@ -12,6 +16,9 @@ Enter plain English queries like:
 Converts it into valid SQL using a Transformer model.
 
 Executes and displays query results on the fly.
+
+---
+
 
 🛠️ SQL Workbench
 Create SQLite tables visually.
@@ -24,6 +31,9 @@ See live data in the UI.
 
 Ask natural language questions about the table data.
 
+---
+
+
 📦 Tech Stack
 | Layer     | Technology                                              |
 | --------- | ------------------------------------------------------- |
@@ -31,6 +41,8 @@ Ask natural language questions about the table data.
 | Backend   | [SQLite](https://sqlite.org/index.html)                 |
 | LLM Model | `T5ForConditionalGeneration` (HuggingFace Transformers) |
 | Language  | Python 3.10+                                            |
+
+---
 
 
 🛠️ Setup Instructions
