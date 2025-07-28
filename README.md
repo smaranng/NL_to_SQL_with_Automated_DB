@@ -26,20 +26,10 @@ Ask natural language questions about the table data.
 
 📦 Tech Stack
 | Layer     | Technology                                              |
-
-
 | --------- | ------------------------------------------------------- |
-
-
 | Frontend  | [Streamlit](https://streamlit.io/)                      |
-
-
 | Backend   | [SQLite](https://sqlite.org/index.html)                 |
-
-
 | LLM Model | `T5ForConditionalGeneration` (HuggingFace Transformers) |
-
-
 | Language  | Python 3.10+                                            |
 
 
