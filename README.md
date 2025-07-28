@@ -90,12 +90,14 @@ streamlit run fullsql.py
 
 
 Try these in the NL to SQL generator tab:
-
+```
 Get all employees with salary > 50000
 
 Show all students born after 2000
 
 List orders where amount < 1000
+```
+
 
 🔐 Notes
 
@@ -130,5 +132,4 @@ Streamlit
 SQLite
 
 
-📄 License
-This project is licensed under the MIT License.
+
