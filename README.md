@@ -45,11 +45,13 @@ Ask natural language questions about the table data.
 
 🛠️ Setup Instructions
 🔧 1. Clone the repository
+```bash
+git clone https://github.com/smaranng/NL_to_SQL_with_Automated_DB.git
 
-git clone https://github.com/your-username/nl2sql-streamlit.git
 
+cd nl_to_sql
+```
 
-cd nl2sql-streamlit
 📦 2. Install Dependencies
 We recommend using a virtual environment:
 
@@ -67,50 +69,32 @@ pandas
 
 📥 3. Add the Fine-Tuned T5 Model
 Place your custom-trained T5 model directory named nl_to_sql_model/ inside the project root. It should contain:
-
+```
 
 nl_to_sql_model/
-
-
 ├── config.json
-
-
 ├── pytorch_model.bin
-
-
 ├── tokenizer_config.json
-
-
 ├── tokenizer.json
-
-
 ├── special_tokens_map.json
-
-
 └── vocab files...
 
-
+```
 You can also load a public HuggingFace model here by modifying load_model() in the code.
 
 ▶️ 4. Run the App
-
+```bash
 streamlit run fullsql.py
-
+```
 
 📁 Project Structure
 
-.
+```
 ├── fullsql.py               # Main Streamlit app
-
-
 ├── user_db.sqlite           # SQLite database (auto-generated)
-
-
 ├── nl_to_sql_model/         # Fine-tuned T5 model directory
-
-
 └── README.md
-
+```
 
 ✨ Example Prompts
 
