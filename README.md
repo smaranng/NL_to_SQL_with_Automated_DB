@@ -21,7 +21,9 @@ Executes and displays query results on the fly.
 
 
 🛠️ SQL Workbench
-Create SQLite tables visually.
+---
+
+- Create SQLite tables visually.
 
 Add columns with types (INTEGER, TEXT, REAL, DATE).
 
