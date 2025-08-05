@@ -63,16 +63,16 @@ cd nl_to_sql
 
 We recommend using a virtual environment:
 
-streamlit
+- `streamlit`
 
 
-torch
+- `torch`
 
 
-transformers
+- `transformers`
 
 
-pandas
+- `pandas`
 
 ---
 
