@@ -25,13 +25,13 @@ Executes and displays query results on the fly.
 
 - Create SQLite tables visually.
 
-Add columns with types (INTEGER, TEXT, REAL, DATE).
+- Add columns with types (INTEGER, TEXT, REAL, DATE).
 
-Insert data through a dynamic form.
+- Insert data through a dynamic form.
 
-See live data in the UI.
+- See live data in the UI.
 
-Ask natural language questions about the table data.
+- Ask natural language questions about the table data.
 
 ---
 
