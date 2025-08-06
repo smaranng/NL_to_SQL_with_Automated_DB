@@ -14,9 +14,9 @@ Enter plain English queries like:
 
 "Show all students older than 18"
 
-Converts it into valid SQL using a Transformer model.
+- Converts it into valid SQL using a Transformer model.
 
-Executes and displays query results on the fly.
+- Executes and displays query results on the fly.
 
 ---
 
