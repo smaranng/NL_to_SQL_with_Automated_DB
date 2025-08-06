@@ -8,6 +8,7 @@ This project is a Streamlit-based web app that converts natural language prompts
 ---
 
 🚀 Features
+---
 🔍 Natural Language to SQL Generator
 Enter plain English queries like:
 
