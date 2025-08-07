@@ -137,9 +137,9 @@ List orders where amount < 1000
 🔐 Notes
 
 
-Data is stored in a local SQLite file (user_db.sqlite).
+- Data is stored in a local SQLite file (user_db.sqlite).
 
-Only basic types supported: INTEGER, TEXT, REAL, DATE.
+- Only basic types supported: INTEGER, TEXT, REAL, DATE.
 
 App supports dynamic table creation and insertion with DATE pickers.
 
