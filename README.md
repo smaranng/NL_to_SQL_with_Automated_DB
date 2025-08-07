@@ -164,11 +164,13 @@ Fine-tune using Hugging Face's Trainer API.
 
 
 🙌 Credits
-Hugging Face Transformers
 
-Streamlit
 
-SQLite
+- Hugging Face Transformers
+
+- Streamlit
+
+- SQLite
 
 
 
