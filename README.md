@@ -141,9 +141,9 @@ List orders where amount < 1000
 
 - Only basic types supported: INTEGER, TEXT, REAL, DATE.
 
-App supports dynamic table creation and insertion with DATE pickers.
+- App supports dynamic table creation and insertion with DATE pickers.
 
-Aliases like "employee" or "staff" are normalized internally for flexibility.
+- Aliases like "employee" or "staff" are normalized internally for flexibility.
 
 ---
 
